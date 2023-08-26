@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>JS CRUD</title>
+</head>
+
+<body>
+    <h1>JS CRUD</h1>
+    <h1>두번째 h1 태그</h1>
+    <div class="todocontainer">
+        <input type="text" id="todo-input" placeholder="투두 리스트 작성!">
+        <button onclick="addItem()">입력완료</button>
+    </div>
+    <ul id="my-list">
+        <li class="list-item" id="first-item" onclick="handleSingleClick(this)">첫째 내용</li>
+        <li class="list-item" id="second-item" onclick="handleSingleClick(this)">둘째 내용</li>
+        <li class=" list-item" id="third-item" onclick="handleSingleClick(this)">셋째 내용</li>
+    </ul>
+    <!-- <button onclick=" handleClick()">버튼</button> -->
+    <!-- <button type="submit"></button> -->
+    <script src="index.js"></script>
+</body>
+
+</html>
